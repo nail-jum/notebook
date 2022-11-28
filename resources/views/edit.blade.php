@@ -19,19 +19,27 @@ document.addEventListener("DOMContentLoaded", function () {
     <input type="hidden" name="id" value="{{$row->id}}">
     <div>
         <label for="name">Имя:</label>
-        <input type="text" id="name" name="name" class="form__input" value="{{$row->name}}">
+        <input type="text" id="name" name="name" class="form_input" value="{{$row->name}}">
     </div>
     <div>
         <label for="company">Компания:</label>
-        <input type="text" id="company" name="company" class="form__input" value="{{$row->company}}">
+        <input type="text" id="company" name="company" class="form_input" value="{{$row->company}}">
     </div>
     <div>
         <label for="phone">Телефон:</label>
-        <input type="text" id="phone" name="phone" class="form__input" value="{{$row->phone}}">
+        <input type="text" id="phone" name="phone" class="form_input" value="{{$row->phone}}">
     </div>
     <div>
         <label for="email">email:</label>
-        <input type="text" id="email" name="email" class="form__input" value="{{$row->email}}">
+        <input type="text" id="email" name="email" class="form_input" value="{{$row->email}}">
+    </div>
+    <div>
+        <label for="birthday">Дата рождения:</label>
+        <input type="date" id="birthday" name="birthday" class="form_input" value="{{$row->birthday}}">
+    </div>
+    <div>
+        <label for="birthday">Фото:</label>
+        <div><img id="photo" class="photo" src="{{$row->photo}}"></div>
     </div>
     <div class="form-buttons">
         <input id="btn-cancel" type="button" value="Отмена">

@@ -4,7 +4,7 @@
 <head>
     <title>Notebook</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="{{url('/styles.css?5')}}">
+    <link rel="stylesheet" type="text/css" href="{{url('/styles.css?10')}}">
     @yield("head_items")
     <script>
 @yield("javascript")

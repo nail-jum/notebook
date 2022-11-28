@@ -32,6 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <label for="email">email:</label>
         <input type="text" id="email" name="email" class="form_input">
     </div>
+    <div>
+        <label for="birthday">Дата рождения:</label>
+        <input type="date" id="birthday" name="birthday" class="form_input">
+    </div>
     <div class="form-buttons">
         <input id="btn-cancel" type="button" value="Отмена">
         <input id="btn-submit" type="submit" value="Отправить">
