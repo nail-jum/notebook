@@ -1,0 +1,171 @@
+* {
+    font-family: Calibri, Arial;
+    font-size: 16px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 12px 0 4px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 4px 0 4px;
+}
+
+.data-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.data-form > div {
+    margin: 0 0 6px;
+    padding: 0;
+}
+
+div.content {
+    width: max-content;
+    margin: 0 auto;
+}
+
+div.form-buttons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    padding: 4px 10px;
+    text-align: left;
+}
+
+.form_input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    margin: 4px 0;
+    padding: 0 8px;
+    font-size: 16px;
+}
+
+.form__text {
+    width: 100%;
+    height: 150px;
+    margin: 4px 0;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+.form_show {
+    width: 100%;
+    /*height: 32px;*/
+    margin: 4px 0;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: 1px solid grey;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+    min-width: 100px;
+    border: 0px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+
+#btn-cancel {
+    background-color: grey;
+    color: white;
+}
+
+#btn-submit {
+    background-color: #198754;
+    color: white;
+}
+
+#btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+#btn-add {
+    background-color: #ffff80;
+}
+
+.message {
+    width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.exception-msg {
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+.error-msg {
+    border-color: red;
+    background-color: #ffc8c8;
+    font-weight: bold;
+}
+
+.work-msg {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+table.text-list {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin: 0 auto;
+    min-width: 600px;
+    font-size: 14px;
+
+}
+
+table.text-list td,
+table.text-list th {
+    border: 1px solid grey;
+    padding: 2px 8px;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+div.api-content {
+    width: 640px;
+    margin: 0 auto;
+    padding: 8px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+table.api-test {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin: 4px auto;
+}
+
+table.api-test td {
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+td.center {
+    text-align: center;
+}
+
+img.photo {
+    max-width: 400px;
+}
