@@ -18,8 +18,6 @@ use Illuminate\Support\Facades\Route;
     //return view('welcome');
 //});
 
-//Route::get('/', function() {echo 'Ok';});
-
 Route::get('/', [NotesController::class, 'index']);
 
 Route::get('/index', [NotesController::class, 'index']);

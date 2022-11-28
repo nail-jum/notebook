@@ -24,12 +24,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/notebook/', [ApiController::class, 'index']);
 
 Route::post('/notebook/', [ApiController::class, 'store']);
-//Route::post('/notebook/', function() {echo 'Ok';});
-//Route::get('/', function() {echo 'Ok';});
 
 Route::get('/notebook/{id}/', [ApiController::class, 'show']);
 
-Route::post('/notebook/{id}/', [ApiController::class, 'update']);
 Route::post('/notebook/{id}/', [ApiController::class, 'update']);
 
 Route::post('/notebook/delete/{id}/', [ApiController::class, 'destroy']);
